@@ -1,5 +1,5 @@
 "use strict"
-// add product automatically
+//=========================== Main Contant Products===========================//
 
 let arr = [
     { heading: "Portable budds <br> Only at ₹1800", image: "https://images-eu.ssl-images-amazon.com/images/G/31/12407722031/nss/MayBAU/Fan_DT_CC_379x304._SY304_CB558601697_.jpg", button: "Add To Cart" },
@@ -12,6 +12,8 @@ let arr = [
     { heading: "Jamnapaar <br> Streaming Now", image: "https://images-eu.ssl-images-amazon.com/images/G/31/img19/SiddMiniTV/DeskCC-379x304_V1._SY304_CB555943778_.jpg", button: "Add To Watch " },
 ]
 
+
+//=========================== Famous Products===========================//
 let product = [
     {image:"https://m.media-amazon.com/images/I/414FMWNS6jL._AC_SY200_.jpg"},
     {image:"https://m.media-amazon.com/images/I/41nclnxOSLL._AC_SY200_.jpg"},
@@ -25,6 +27,8 @@ let product = [
     {image:"https://m.media-amazon.com/images/I/81tioCUVf4L._AC_SY200_.jpg"}
 ]
 
+
+//=========================== Add To CART Products===========================//
 let cart = []
 
 function showTheProduct() {
@@ -76,6 +80,7 @@ function showTheCart() {
     
             document.querySelector(".hid-nav").innerHTML = dev;
             console.log(dev);
+            
         });
         
     })
